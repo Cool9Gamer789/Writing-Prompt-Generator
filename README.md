@@ -1,1 +1,1 @@
-# Writing-Prompt-Generator
+# Writing Prompt Generator
