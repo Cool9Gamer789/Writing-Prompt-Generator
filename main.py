@@ -8,7 +8,7 @@ client = OpenAI(
 )
 
 def main():
-    story_theme = input("Enter a theme for your writing prompt: ")
+    story_theme = input("Enter a theme for your writing prompt: ").rstrip()
     # Contains the reply from the Deepseek
     reply = generate_prompt(story_theme)
     
@@ -33,3 +33,4 @@ def generate_prompt(theme):
 
 if __name__ == "__main__":
     main()
+
